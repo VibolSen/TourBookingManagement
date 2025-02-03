@@ -1,0 +1,394 @@
+{
+  "destinations": [
+    {
+      "id": 1,
+      "image": "https://hblimg.mmtcdn.com/content/hubble/img/julydestimg/mmt/activities/m_Bali_1destimg_l_902_1352.jpg",
+      "destination": "Mountain Adventure",
+      "rating": 4.85,
+      "reviews": 512,
+      "duration": "3 days 2 nights - Adventure",
+      "price": 48.25
+    },
+    {
+      "id": 2,
+      "image": "https://media.cntraveler.com/photos/566f062f8a2b39b76071c71a/master/pass/Maldavies-CR-ChrisMRogersGalleryStock.jpg",
+      "destination": "Beach Getaway",
+      "rating": 4.7,
+      "reviews": 320,
+      "duration": "5 days 4 nights - Relaxation",
+      "price": 75.5
+    },
+    {
+      "id": 3,
+      "image": "https://www.travelandleisure.com/thmb/4QkCz66MFZiEji0e2m52AS5NwpE=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/key-west-beach-florida-BEACHWKNDS0620-e2faf227f60c48978cea6c62bccf5650.jpg",
+      "destination": "Beach Getaway",
+      "rating": 4.7,
+      "reviews": 320,
+      "duration": "5 days 4 nights - Relaxation",
+      "price": 75.5
+    }
+  ],
+  "trending": [
+    {
+      "id": 1,
+      "name": "Mountains",
+      "image": "https://i.pinimg.com/736x/7a/56/2e/7a562ecc26f31c61d10b2b5139a0b9df.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Desert",
+      "image": "https://i.pinimg.com/736x/52/a8/16/52a816854b7fb5bc7512e9f0a8b3f7de.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Forest",
+      "image": "https://i.pinimg.com/736x/87/55/59/875559ddb2ca0802b238aa406f7f73c7.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Beach",
+      "image": "https://i.pinimg.com/736x/e4/29/19/e42919874adba2af31ccf389c4d9d1b0.jpg"
+    },
+    {
+      "id": 5,
+      "name": "City",
+      "image": "https://i.pinimg.com/736x/10/00/0e/10000e026456411b41c9ead4b531ee94.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Island",
+      "image": "https://i.pinimg.com/236x/58/94/95/58949541387fca8e2cbfdb5b15242249.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Ocean",
+      "image": "https://i.pinimg.com/736x/9b/b5/30/9bb530bbfa60ce254594cf00815eddf5.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Waterfall",
+      "image": "https://i.pinimg.com/736x/90/4b/e1/904be18bb4840cea3e6abf5387e43b6c.jpg"
+    }
+  ],
+  "tours": [
+    {
+      "id": 1,
+      "image": "https://hblimg.mmtcdn.com/content/hubble/img/julydestimg/mmt/activities/m_Bali_1destimg_l_902_1352.jpg",
+      "title": "Mountain Adventure",
+      "rating": 4.85,
+      "reviews": 512,
+      "duration": "3 days 2 nights - Adventure",
+      "price": 48.25
+    },
+    {
+      "id": 2,
+      "image": "https://hblimg.mmtcdn.com/content/hubble/img/julydestimg/mmt/activities/m_Bali_1destimg_l_902_1352.jpg",
+      "title": "Mountain Adventure",
+      "rating": 4.85,
+      "reviews": 512,
+      "duration": "3 days 2 nights - Adventure",
+      "price": 48.25
+    },
+    {
+      "id": 3,
+      "image": "https://hblimg.mmtcdn.com/content/hubble/img/julydestimg/mmt/activities/m_Bali_1destimg_l_902_1352.jpg",
+      "title": "Mountain Adventure",
+      "rating": 4.85,
+      "reviews": 512,
+      "duration": "3 days 2 nights - Adventure",
+      "price": 48.25
+    },
+    {
+      "id": 4,
+      "image": "https://hblimg.mmtcdn.com/content/hubble/img/julydestimg/mmt/activities/m_Bali_1destimg_l_902_1352.jpg",
+      "title": "Mountain Adventure",
+      "rating": 4.85,
+      "reviews": 512,
+      "duration": "3 days 2 nights - Adventure",
+      "price": 48.25
+    }
+  ],
+  "weekendDeals": [
+    {
+      "id": 1,
+      "image": "https://hblimg.mmtcdn.com/content/hubble/img/julydestimg/mmt/activities/m_Bali_1destimg_l_902_1352.jpg",
+      "title": "Mountain Adventure",
+      "rating": 4.85,
+      "reviews": 512,
+      "duration": "3 days 2 nights - Adventure",
+      "price": 48.25
+    },
+    {
+      "id": 2,
+      "image": "https://hblimg.mmtcdn.com/content/hubble/img/julydestimg/mmt/activities/m_Bali_1destimg_l_902_1352.jpg",
+      "title": "Mountain Adventure",
+      "rating": 4.85,
+      "reviews": 512,
+      "duration": "3 days 2 nights - Adventure",
+      "price": 48.25
+    },
+    {
+      "id": 3,
+      "image": "https://hblimg.mmtcdn.com/content/hubble/img/julydestimg/mmt/activities/m_Bali_1destimg_l_902_1352.jpg",
+      "title": "Mountain Adventure",
+      "rating": 4.85,
+      "reviews": 512,
+      "duration": "3 days 2 nights - Adventure",
+      "price": 48.25
+    },
+    {
+      "id": 4,
+      "image": "https://hblimg.mmtcdn.com/content/hubble/img/julydestimg/mmt/activities/m_Bali_1destimg_l_902_1352.jpg",
+      "title": "Mountain Adventure",
+      "rating": 4.85,
+      "reviews": 512,
+      "duration": "3 days 2 nights - Adventure",
+      "price": 48.25
+    }
+  ],
+  "traditionalTours": [
+    {
+      "id": 1,
+      "image": "https://hblimg.mmtcdn.com/content/hubble/img/julydestimg/mmt/activities/m_Bali_1destimg_l_902_1352.jpg",
+      "title": "Mountain Adventure",
+      "rating": 4.85,
+      "reviews": 512,
+      "duration": "3 days 2 nights - Adventure",
+      "price": 48.25
+    },
+    {
+      "id": 2,
+      "image": "https://hblimg.mmtcdn.com/content/hubble/img/julydestimg/mmt/activities/m_Bali_1destimg_l_902_1352.jpg",
+      "title": "Mountain Adventure",
+      "rating": 4.85,
+      "reviews": 512,
+      "duration": "3 days 2 nights - Adventure",
+      "price": 48.25
+    },
+    {
+      "id": 3,
+      "image": "https://hblimg.mmtcdn.com/content/hubble/img/julydestimg/mmt/activities/m_Bali_1destimg_l_902_1352.jpg",
+      "title": "Mountain Adventure",
+      "rating": 4.85,
+      "reviews": 512,
+      "duration": "3 days 2 nights - Adventure",
+      "price": 48.25
+    },
+    {
+      "id": 4,
+      "image": "https://hblimg.mmtcdn.com/content/hubble/img/julydestimg/mmt/activities/m_Bali_1destimg_l_902_1352.jpg",
+      "title": "Mountain Adventure",
+      "rating": 4.85,
+      "reviews": 512,
+      "duration": "3 days 2 nights - Adventure",
+      "price": 48.25
+    }
+  ],
+  "featureNews": [
+    {
+      "id": 1,
+      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/5ebed2cc142a910006474ad8/deserted-beach/960x0.jpg?format=jpg&width=960",
+      "title": "Breaking News 1",
+      "date": "2023-10-01",
+      "description": "This is a description of the first news item."
+    },
+    {
+      "id": 2,
+      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/5ebed2cc142a910006474ad8/deserted-beach/960x0.jpg?format=jpg&width=960",
+      "title": "Breaking News 2",
+      "date": "2023-10-02",
+      "description": "This is a description of the second news item."
+    },
+    {
+      "id": 3,
+      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/5ebed2cc142a910006474ad8/deserted-beach/960x0.jpg?format=jpg&width=960",
+      "title": "Breaking News 3",
+      "date": "2023-10-03",
+      "description": "This is a description of the third news item."
+    }
+  ],
+  "attractions": [
+    {
+      "id": 1,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 2,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 3,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 4,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 5,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 6,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 7,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 8,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    }
+  ],
+  "historical": [
+    {
+      "id": 1,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 2,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 3,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 4,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 5,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 6,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 7,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 8,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 9,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 10,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 11,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    },
+    {
+      "id": 12,
+      "image": "https://goviettravel.com/files/images/indochia-tours/CAMBODIA-TOURS/Phnom%20Penh%2C%20top%20sights%20not%20to%20miss.jpg",
+      "title": "California Sunset/Twilight Boat Cruise",
+      "price": "$48.25",
+      "duration": "2 days / 3 nights - Family",
+      "reviews": "4.5 (1,272 reviews)"
+    }
+  ],
+    "services": [
+      {
+        "icon": "📚",
+        "title": "Local Culture",
+        "description": "Built Wicket longer admire do barton vanity itself do it.",
+        "link": "/services/local-culture"
+      },
+      {
+        "icon": "✈️",
+        "title": "Local Historical Sites",
+        "description": "Engrossed listening, Park gate sell they west hard for the.",
+        "link": "/services/historical-sites"
+      },
+      {
+        "icon": "🎤",
+        "title": "Local Events",
+        "description": "Barton vanity itself do it. Preferred to men it engrossed listening.",
+        "link": "/services/local-events"
+      }
+    ]
+}
