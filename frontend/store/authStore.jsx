@@ -1,8 +1,8 @@
 import { create } from "zustand";
 
- const API_URL = "https://tourbookingplan-backend.onrender.com/api/auth";
+//  const API_URL = "https://tourbookingplan-backend.onrender.com/api/auth";
 
-//const API_URL = "http://localhost:3600/api/auth";
+const API_URL = `${process.env.NEXT_PUBLIC_BACKEND_URL}/auth`;
 
 export const useAuthStore = create((set, get) => ({
   user: null,

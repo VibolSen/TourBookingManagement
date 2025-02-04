@@ -2,9 +2,9 @@
 import { create } from "zustand";
 import axios from "axios";
 
-const API_URL = "https://tourbookingplan-backend.onrender.com/api"; // Replace with your backend URL
+// const API_URL = "https://tourbookingplan-backend.onrender.com/api"; // Replace with your backend URL
 
-//const API_URL = "http://localhost:3500/api";
+const API_URL = `${process.env.NEXT_PUBLIC_BACKEND_URL}`;
 
 const usePolicyStore = create((set) => ({
   policies: [], // Array to store policies

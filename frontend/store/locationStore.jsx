@@ -1,9 +1,9 @@
 import { create } from "zustand";
 
-const API_LOCATION_URL =
-  "https://tourbookingplan-backend.onrender.com/api/locations";
+// const API_LOCATION_URL =
+//   "https://tourbookingplan-backend.onrender.com/api/locations";
 
-//const API_LOCATION_URL = "http://localhost:3500/api/locations";
+const API_LOCATION_URL = `${process.env.NEXT_PUBLIC_BACKEND_URL}/locations`;
 
 export const useLocationStore = create((set, get) => ({
   locations: [],

@@ -20,6 +20,12 @@ const LoginPage = () => {
   const { login } = useAuthStore();
   const { loginAdmin } = useAdminStore(); // Admin login function
 
+  // Handle Google OAuth2 login
+  const handleGoogleLogin = () => {
+    // Redirect to the backend endpoint that initiates Google OAuth2
+    window.location.href = `${process.env.NEXT_PUBLIC_BACKEND_URL}/auth/google`;
+  };
+
   const handleSubmit = async (e) => {
     e.preventDefault();
     try {
@@ -127,11 +133,10 @@ const LoginPage = () => {
 
           {/* Social Login */}
           <div className="flex space-x-4">
-            <Button className="flex-1 bg-blue-600 text-white flex items-center justify-center space-x-1">
-              <img src="/facebook.png" alt="Facebook" className="w-10 h-10" />
-              <span>Facebook</span>
-            </Button>
-            <Button className="flex-1 bg-blue-600 text-white flex items-center justify-center space-x-1">
+            <Button
+              onClick={handleGoogleLogin}
+              className="flex-1 bg-blue-600 text-white flex items-center justify-center space-x-1"
+            >
               <img src="/google.png" alt="Google" className="w-5 h-5" />
               <span>Google</span>
             </Button>

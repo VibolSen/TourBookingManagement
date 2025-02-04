@@ -1,9 +1,9 @@
 import { create } from "zustand";
 import axios from "axios";
 
- const API_URL = "https://tourbookingplan-backend.onrender.com/api/tours";
+//  const API_URL = "https://tourbookingplan-backend.onrender.com/api/tours";
 
-//const API_URL = "http://localhost:3500/api/tours";
+const API_URL = `${process.env.NEXT_PUBLIC_BACKEND_URL}/tours`;
 export const useTourStore = create((set) => ({
   tours: [],
   currentTour: null,
