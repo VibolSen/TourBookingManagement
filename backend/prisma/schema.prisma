@@ -1,0 +1,129 @@
+datasource db {
+  provider = "mongodb"
+  url      = env("DATABASE_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  id                         String    @id @default(auto()) @map("_id") @db.ObjectId
+  name                       String
+  image                      String?
+  email                      String    @unique
+  googleId                   String?   @unique
+  password                   String?
+  isVerified                 Boolean   @default(true)
+  status                     String    @default("approved")
+  role                       String    @default("user")
+  adminId                    String?   @db.ObjectId
+  resetPasswordToken         String?
+  resetPasswordExpiresAt     DateTime?
+  verificationToken          String?
+  verificationTokenExpiresAt DateTime?
+  createdAt                  DateTime  @default(now())
+  updatedAt                  DateTime  @updatedAt
+
+  bookings         Booking[] @relation("UserBookings")
+  approvedBookings Booking[] @relation("ApprovedBookings")
+  policies         Policy[]
+  tours            Tour[]
+
+  @@map("users")
+}
+
+model Admin {
+  id            String   @id @default(auto()) @map("_id") @db.ObjectId
+  name          String
+  email         String   @unique
+  password      String
+  role          String   @default("admin")
+  users         String[] @db.ObjectId
+  subAdmins     String[] @db.ObjectId
+  userCount     Int      @default(0)
+  subAdminCount Int      @default(0)
+
+  @@map("admins")
+}
+
+model Category {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  categoryname String
+  status       String   @default("Active")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  tours        Tour[]
+
+  @@map("categories")
+}
+
+model Location {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  nameLocation String
+  status       String   @default("Active")
+  createdAt    DateTime @default(now())
+  updatedAt    DateTime @updatedAt
+  tours        Tour[]
+
+  @@map("locations")
+}
+
+model Tour {
+  id                 String    @id @default(auto()) @map("_id") @db.ObjectId
+  name               String
+  description        String
+  PackageDescription String
+  DescriptionTip     String?
+  price              Float
+  duration           Int
+  maxGroupSize       Int
+  categoryId         String    @db.ObjectId
+  category           Category  @relation(fields: [categoryId], references: [id])
+  locationId         String    @db.ObjectId
+  location           Location  @relation(fields: [locationId], references: [id])
+  status             String    @default("Active")
+  mainImage          String
+  galleryImages      String[]  @default([])
+  startDate          DateTime
+  endDate            DateTime
+  companyId          String    @db.ObjectId
+  company            User      @relation(fields: [companyId], references: [id])
+  createdAt          DateTime  @default(now())
+  updatedAt          DateTime  @updatedAt
+  bookings           Booking[]
+
+  @@map("tours")
+}
+
+model Booking {
+  id           String   @id @default(auto()) @map("_id") @db.ObjectId
+  tourId       String   @db.ObjectId
+  tour         Tour     @relation(fields: [tourId], references: [id])
+  userId       String   @db.ObjectId
+  user         User     @relation("UserBookings", fields: [userId], references: [id])
+  members      Int
+  dateOrder    DateTime @default(now())
+  time         String
+  day          String
+  months       String
+  status       String   @default("pending")
+  approvedById String?  @db.ObjectId
+  approvedBy   User?    @relation("ApprovedBookings", fields: [approvedById], references: [id])
+  createdAt    DateTime @default(now())
+
+  @@map("bookings")
+}
+
+model Policy {
+  id          String   @id @default(auto()) @map("_id") @db.ObjectId
+  title       String
+  description String
+  createdById String   @db.ObjectId
+  createdBy   User     @relation(fields: [createdById], references: [id])
+  isActive    Boolean  @default(true)
+  createdAt   DateTime @default(now())
+  updatedAt   DateTime @updatedAt
+
+  @@map("policies")
+}

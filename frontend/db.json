@@ -371,24 +371,24 @@
       "reviews": "4.5 (1,272 reviews)"
     }
   ],
-    "services": [
-      {
-        "icon": "📚",
-        "title": "Local Culture",
-        "description": "Built Wicket longer admire do barton vanity itself do it.",
-        "link": "/services/local-culture"
-      },
-      {
-        "icon": "✈️",
-        "title": "Local Historical Sites",
-        "description": "Engrossed listening, Park gate sell they west hard for the.",
-        "link": "/services/historical-sites"
-      },
-      {
-        "icon": "🎤",
-        "title": "Local Events",
-        "description": "Barton vanity itself do it. Preferred to men it engrossed listening.",
-        "link": "/services/local-events"
-      }
-    ]
+  "services": [
+    {
+      "icon": "🧭",
+      "title": "Local Culture & Heritage",
+      "description": "Immerse yourself in Cambodia's rich cultural tapestry. Experience traditional Apsara dances, authentic Khmer cooking classes, and community village tours.",
+      "link": "/services/local-culture"
+    },
+    {
+      "icon": "🏛️",
+      "title": "Ancient Historical Sites",
+      "description": "Journey back in time with expert historians. Traverse the ruins of Angkor Wat, Bayon temple, and discover hidden jungle temples off the beaten path.",
+      "link": "/services/historical-sites"
+    },
+    {
+      "icon": "📅",
+      "title": "Festivals & Local Events",
+      "description": "Join the vibrant rhythms of Cambodian celebrations. Participate in events like the Water Festival, Cambodian New Year, and sacred local ceremonies.",
+      "link": "/services/local-events"
+    }
+  ]
 }

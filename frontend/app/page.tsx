@@ -6,7 +6,7 @@ import Image from "next/image"; // Import the Image component
 import Service from "../components/home/Card/Service";
 import { FaStar } from "react-icons/fa";
 import Footer from "../components/Footer";
-import ProfileUser from "../components/Profile";
+import ProfileUser from "../components/header/Navbar";
 import { useAuthStore } from "../store/authStore";
 import { useParams } from "next/navigation";
 import { useTourStore } from "../store/package";

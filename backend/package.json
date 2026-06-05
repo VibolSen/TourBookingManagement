@@ -2,10 +2,10 @@
   "name": "project-app-booking",
   "version": "1.0.0",
   "description": "A booking application backend built with Node.js and Express",
-  "main": "index.js",
-  "type": "module",
+  "main": "index.ts",
   "scripts": {
-    "dev": "nodemon index.js"
+    "build": "prisma generate && tsc",
+    "dev": "tsx watch index.ts"
   },
   "keywords": [
     "booking",
@@ -18,7 +18,6 @@
   "dependencies": {
     "axios": "^1.7.9",
     "bcryptjs": "^2.4.3",
-    "canvas": "^3.0.0",
     "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "crypto": "^1.0.1",
@@ -35,6 +34,16 @@
     "resend": "^4.0.1"
   },
   "devDependencies": {
-    "concurrently": "^9.1.2"
+    "@prisma/client": "^5.22.0",
+    "@types/bcryptjs": "^2.4.6",
+    "@types/cookie-parser": "^1.4.10",
+    "@types/cors": "^2.8.19",
+    "@types/express": "^5.0.6",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^25.9.1",
+    "concurrently": "^9.1.2",
+    "prisma": "^5.22.0",
+    "tsx": "^4.22.3",
+    "typescript": "^6.0.3"
   }
 }
